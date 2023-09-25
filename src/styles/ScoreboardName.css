@@ -1,0 +1,28 @@
+#scoreboard-names {
+    display: flex;
+    justify-content: space-between;
+    overflow-y: auto; 
+    padding: 1rem 0vw;
+
+    /* font-size: small; */
+}
+
+.scoreChild {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* overflow: auto; */
+
+    font-size: x-large;
+}
+
+@media (max-width: 950px) {
+    .scoreChild {
+        /* width: 30%;
+        display: flex;
+        justify-content: center; */
+        font-size: 2vw;
+        /* overflow: auto; */
+    }
+}

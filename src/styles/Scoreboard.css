@@ -1,0 +1,41 @@
+#timer {
+    /* background-color: pink; */
+    display: flex;
+}
+
+#scoreboard {
+    min-width: 1vw;
+    height: 95vh;
+    background-color: beige;
+
+    display: flex;
+    flex-direction: column;
+
+    /* height: 100%;  */
+    /* TODO idk something is fucky */
+    /* display: flex; */
+}
+
+#scoreboard-title {
+    text-align: center;
+    font-size: 5vw;
+}
+
+@media (max-width: 950px) {
+    #scoreboard-title {
+        font-size: 2vw;
+    }
+}
+
+
+
+#scoreboard-players {
+    flex: 1;
+    overflow-y: auto;
+    /* background-color: cadetblue; */
+}
+
+#player-score {
+    display:block;
+    word-wrap:break-word;
+}

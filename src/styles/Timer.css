@@ -1,0 +1,26 @@
+#timer-component {
+    display: flex;
+    padding: 0.1rem 0.3rem 0.1rem 0.3rem;
+}
+
+#timer-left {
+    margin-left: auto;
+}
+
+#timer-component .card {
+    padding: 0.8rem 0.8rem;
+    border-radius: 0.5rem;
+
+    border-style: none;
+    background-color: beige;
+    font-size: xx-large;
+    font-family: 'Luminary', 'fantasy';
+    max-width: 100%;
+    font-weight: bold;
+}
+
+@media (max-width: 590px) {
+    #timer-component .card {
+        font-size: small;
+    }
+}
