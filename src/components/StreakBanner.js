@@ -7,7 +7,7 @@ function StreakBanner({streakData}) {
             <div id="name">Trivia 123</div>
 
             <div id='streak'>
-            {   streakData.streak != -1 && <div>{streakData.username} is on a {streakData.streak} question streak!</div>}
+            {   streakData.streak !== -1 && <div>{streakData.username} is on a {streakData.streak} question streak!</div>}
             </div>
         </div>
     );

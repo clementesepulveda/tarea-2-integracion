@@ -1,8 +1,8 @@
 import '../styles/Game.css';
 
-import Question from '../components/Question'
-import Timer from '../components/Timer'
-import Scoreboard from '../components/Scoreboard';
+// import Question from '../components/Question'
+// import Timer from '../components/Timer'
+// import Scoreboard from '../components/Scoreboard';
 
 function Game({ timerState, scoreboardState, questionState, sendAnswer}) {
     return (

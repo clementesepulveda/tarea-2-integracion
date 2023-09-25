@@ -3,13 +3,13 @@ import { w3cwebsocket } from 'websocket';
 import './views/MainMenu.js'
 import { useState } from 'react';
 
-import { Card } from 'antd';
+// import { Card } from 'antd';
 
 import MainMenu from './views/MainMenu.js';
 import Lobby from './views/Lobby.js';
 import FinalScoreboard from './views/FinalScoreboard.js';
 
-import Game from './views/Game';
+// import Game from './views/Game';
 import Question from './components/Question'
 import Timer from './components/Timer'
 import Scoreboard from './components/Scoreboard';
@@ -60,6 +60,8 @@ function App() {
                 setQuestionResult({
                     correct: ''
                 });
+
+                console.log(username)
     
                 // Call the callback after successfully reconnecting
                 server.onopen = () => {
